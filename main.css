@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* HERO CONTENT START */
+.hero-image {
+    background-image: url("../img/NrWeb.png");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-logo {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 15px;
+}
+
+.hero-image .cta {
+    position: absolute;
+    top: 80%;
+    left: 45%;
+    color: white;
+    outline: 3px solid white;
+    font-size: 20px;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 12px;
+    text-shadow: 2px 2px 5px #000;
+    box-shadow: 5px 5px 8px #000;
+}
+/* HERO CONTENT END */
+
+/* STICKY NAV START */
+nav {
+    height: 80px;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+nav ul {
+    padding: 25px;
+    margin: 0 20px 0 0;
+}
+
+nav ul li {
+    padding: 0;
+    margin: 0;
+    display: block;
+    float: right;
+}
+
+nav ul li a {
+    display: block;
+    box-sizing: border-box;
+    height: 100%;
+    font-size: 24px;
+    padding: 0 10px 0 10px;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+nav img {
+    display: block;
+    box-sizing: border-box;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+
+a:hover {
+    color: grey;
+}
+
+a:active {
+    color: darkgray;
+}
+/* STICKY NAV END */
+
+/* OUR STORY START */
+.container {
+    max-height: 100vh;
+}
+
+.container img {
+    width: 100%;
+}
+
+.container .cta {
+    position: absolute;
+    top: 220%;
+    left: 45.5%;
+    color: white;
+    outline: 3px solid white;
+    font-size: 20px;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    text-shadow: 5px 5px 5px #000;
+    box-shadow: 5px 5px 10px #000;
+}
+/* OUR STORY END */
+
+.essay {
+    height: 100vh;
+    background-color: #184E77;
+}
+
+.essay h2 {
+    box-sizing: border-box;
+    position: relative;
+    color: white;
+    top: 200px;
+    left: 50px;
+}
