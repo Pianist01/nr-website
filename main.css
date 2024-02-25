@@ -2,12 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Oswald;
+    font-weight: 400;
 }
 
 html {
     width: 100%;
     height: 100%;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 img {
@@ -23,11 +26,22 @@ main {
     flex-grow: 1;
 }
 
+.hero-image {
+    position: relative;
+}
+
 .hero-image .hands {
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.hero-image .gram {
+    box-sizing: border-box;
+    position: absolute;
+    top: 10%;
+    left: 90%;
 }
 
 .hero-logo {
@@ -41,7 +55,7 @@ main {
 .hero-image .cta {
     position: absolute;
     top: 80%;
-    left: 45%;
+    left: 46%;
     color: white;
     outline: 3px solid white;
     font-size: 20px;
@@ -96,6 +110,7 @@ nav img {
 
 a {
     cursor: pointer;
+    color: black;
 }
 
 a:hover {
@@ -119,7 +134,7 @@ a:active {
 .container .cta {
     position: absolute;
     top: 220%;
-    left: 45.5%;
+    left: 46%;
     color: white;
     outline: 3px solid white;
     font-size: 20px;
@@ -133,15 +148,15 @@ a:active {
 /* SERVICE INFO START */
 .essay {
     height: 100vh;
-    background-color: #000;
+    background: radial-gradient(circle at 10% 20%, rgb(0, 0, 0) 0%, rgb(64, 64, 64) 90.2%);
 }
 
 .essay h2 {
     box-sizing: border-box;
     position: relative;
     color: white;
-    top: 155px;
-    left: 50px;
+    top: 135px;
+    left: 32.5%;
     font-size: 50px;
 }
 
@@ -149,8 +164,8 @@ a:active {
     box-sizing: border-box;
     position: relative;
     color: white;
-    top: 190px;
-    left: 100px;
+    top: 155px;
+    left: 35.5%;
     font-size: 20px;
 }
 
@@ -158,100 +173,100 @@ a:active {
     box-sizing: border-box;
     position: relative;
     color: white;
-    top: 34%;
-    left: 18%;
+    top: 18%;
+    left: 12%;
     font-size: 22px;
 }
 
 .essay .building {
     box-sizing: border-box;
     position: relative;
-    top: 32%;
-    left: 22%;
+    top: 17%;
+    left: 15%;
 }
 
 .essay .second {
     box-sizing: border-box;
     position: relative;
     color: white;
-    top: 36%;
-    left: 15%;
+    top: 19%;
+    left: 8%;
 }
 
 .essay .cena {
     box-sizing: border-box;
     position: relative;
     color: white;
-    top: 260px;
-    left: 20%;
+    top: 20%;
+    left: 13.5%;
     font-size: 22px;
 }
 
 .essay .bread {
     box-sizing: border-box;
     position: relative;
-    top: 37%;
-    left: 23%;
+    top: 19%;
+    left: 15.5%;
 }
 
 .essay .third {
     box-sizing: border-box;
     position: relative;
     color: white;
-    top: 265px;
-    left: 14%;
+    top: 21%;
+    left: 7.5%;
 }
 
 .essay .pray {
     box-sizing: border-box;
     position: relative;
     color: white;
-    top: -20%;
-    left: 67%;
+    top: -27%;
+    left: 75%;
 }
 
 .essay .bible {
     box-sizing: border-box;
     position: relative;
-    top: -23%;
-    left: 73%;
+    top: -28%;
+    left: 80%;
 }
 
 .essay .fourth {
     box-sizing: border-box;
     position: relative;
     color: white;
-    top: -18%;
-    left: 64%;
+    top: -26%;
+    left: 72%;
 }
 
 .essay .moon {
     box-sizing: border-box;
     position: relative;
-    top: -4%;
-    left: 73.5%;
+    top: -24%;
+    left: 80.5%;
 }
 
 .essay .night {
     box-sizing: border-box;
     position: relative;
     color: white;
-    top: -2%;
-    left: 74%;
+    top: -23%;
+    left: 81%;
 }
 
 .essay .fifth {
     box-sizing: border-box;
     position: relative;
     color: white;
-    top: 0%;
-    left: 67%;
+    top: -22.5%;
+    left: 74%;
 }
 
 .essay .cta {
     position: absolute;
-    left: 44%;
-    top: 309%;
+    left: 43%;
+    top: 291%;
     color: white;
     outline: 3px solid white;
     font-size: 20px;
@@ -264,10 +279,58 @@ a:active {
 /* SERVICE INFO END */
 /* FOOTER START */
 
+hr {
+    border: 2px solid black;
+    position: relative;
+    left: 6%;
+    width: 88%;
+}
+
+footer {
+    position: relative;
+}
+
 .end img {
     box-sizing: border-box;
     position: absolute;
-    left: 12%;
-    top: 331%;
+    left: 8%;
+    top: 35%;
 }
 
+.end .long {
+    box-sizing: border-box;
+    position: absolute;
+    left: 11.5%;
+    top: 20.5%;
+}
+
+address {
+    box-sizing: border-box;
+    position: absolute;
+    left: 11%;
+    top: 60%;
+}
+
+footer .map {
+    box-sizing: border-box;
+    position: absolute;
+    top: 60%;
+    left: 8.3%;
+}
+
+footer p {
+    position: absolute;
+    left: 41%;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer .insta {
+    box-sizing: border-box;
+    position: absolute;
+    left: 90%;
+    top: 35%;
+}
+/* FOOTER END */
