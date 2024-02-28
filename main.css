@@ -792,21 +792,27 @@ footer .insta {
         display: none;
     }
 }
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 415px) and (-webkit-device-pixel-ratio: 2) {
+    .container {
+        overflow-x: hidden;
+    }
     .hero-image .hands {
         width: 100%;
         height: 400px;
     }
     .hero-image .cta {
         font-size: 1.25rem;
+        border-radius: 10px;
         top: 50%;
         left: 36%;
     }
     .hero-image .hero-logo {
-        left: 48%;
+        left: 50%;
     }
     .hero-image .gram {
-        left: 85%;
+        width: 20px;
+        height: 20px;
+        left: 87%;
     }
     nav {
         display: none;
@@ -817,27 +823,34 @@ footer .insta {
     .cover .water {
     }
     .essay {
-        height: 1000px;
+        width: 100%;
+        height: 100vh;
     }
     .essay .cta {
-        top: 88.5%;
-        left: 28%;
+        font-size: .5rem;
+        border-radius: 10px;
+        top: 90%;
+        left: 38%;
     }
     .essay h2 {
-        font-size: 2rem;
+        font-size: 1.5rem;
         top: 3%;
-        left: 16%;
+        left: 24%;
     }
     .essay .first {
+        font-size: .85rem;
         top: 9%;
-        left: 14.5%;
+        left: 19%;
     }
     .essay .building {
-        left: 43.5%;
+        width: 25px;
+        height: 25px;
+        left: 45%;
         top: 21%;
     }
     .essay .service {
-        left: 33.5%;
+        font-size: .85rem;
+        left: 38%;
         top: 26%;
     }
     .essay .second {
@@ -845,11 +858,14 @@ footer .insta {
         top: 29.5%;
     }
     .essay .bread {
-        left: 45%;
+        width: 25px;
+        height: 25px;
+        left: 46%;
         top: 36%;
     }
     .essay .cena {
-        left: 37.5%;
+        font-size: .85rem;
+        left: 41%;
         top: 41%;
     }
     .essay .third {
@@ -857,12 +873,14 @@ footer .insta {
         top: 44.5%;
     }
     .essay .bible {
-        left: 44%;
+        width: 25px;
+        height: 25px;
+        left: 45%;
         top: 53%;
     }
     .essay .pray {
-        font-size: 1.25rem;
-        left: 25%;
+        font-size: .85rem;
+        left: 32%;
         top: 59%;
     }
     .essay .fourth {
@@ -870,16 +888,18 @@ footer .insta {
         top: 62%;
     }
     .essay .moon {
-        left: 43.5%;
+        width: 25px;
+        height: 25px;
+        left: 45%;
         top: 70%;
     }
     .essay .night {
-        font-size: 1.25rem;
-        left: 43%;
+        font-size: .85rem;
+        left: 44%;
         top: 75%;
     }
     .essay .fifth  {
-        left: 34%;
+        left: 33%;
         top: 79%;
     }
     .end .short {
