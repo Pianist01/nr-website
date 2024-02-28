@@ -5,12 +5,19 @@
     font-family: Oswald;
     font-weight: 400;
 }
-
+/* ||UTILITY CLASSES */
 html {
-    width: 100%;
+    max-width: 100%;
     height: 100%;
     overflow-x: hidden;
     scroll-behavior: smooth;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
 }
 
 img {
@@ -18,12 +25,16 @@ img {
     max-width: 100%;
     height: auto;
 }
-/* ||UTILITY CLASSES */
+/* ||UTILITY CLASSES END */
 
 /* HERO CONTENT START */
 
 main {
     flex-grow: 1;
+}
+
+header {
+    display: flex;
 }
 
 .hero-image {
@@ -93,7 +104,7 @@ nav ul li a {
     box-sizing: border-box;
     height: 100%;
     font-size: 24px;
-    padding: 0 10px 0 10px;
+    padding: 1px 10px 0 10px;
     text-decoration: none;
     color: black;
     text-transform: uppercase;
@@ -105,7 +116,7 @@ nav img {
     height: 70px;
     position: absolute;
     margin-left: 50px;
-    margin-top: 5px;
+    margin-top: 7px;
 }
 
 a {
@@ -123,18 +134,19 @@ a:active {
 /* STICKY NAV END */
 
 /* OUR STORY START */
-.container {
+.cover {
     max-height: 100vh;
+    position: relative;
 }
 
-.container img {
+.cover img {
     width: 100%;
 }
 
-.container .cta {
+.cover .cta {
     position: absolute;
-    top: 220%;
-    left: 46%;
+    top: 80%;
+    left: 45.5%;
     color: white;
     outline: 3px solid white;
     font-size: 20px;
@@ -147,22 +159,25 @@ a:active {
 /* OUR STORY END */
 /* SERVICE INFO START */
 .essay {
+    position: relative;
     height: 100vh;
     background: radial-gradient(circle at 10% 20%, rgb(0, 0, 0) 0%, rgb(64, 64, 64) 90.2%);
+    display: flex;
+    flex-direction: column;
 }
 
 .essay h2 {
     box-sizing: border-box;
-    position: relative;
+    position: absolute;
     color: white;
-    top: 135px;
+    top: 8%;
     left: 32.5%;
     font-size: 50px;
 }
 
 .essay .first {
     box-sizing: border-box;
-    position: relative;
+    position: absolute;
     color: white;
     top: 155px;
     left: 35.5%;
@@ -171,102 +186,102 @@ a:active {
 
 .essay .service {
     box-sizing: border-box;
-    position: relative;
+    position: absolute;
     color: white;
-    top: 18%;
+    top: 35%;
     left: 12%;
     font-size: 22px;
 }
 
 .essay .building {
     box-sizing: border-box;
-    position: relative;
-    top: 17%;
+    position: absolute;
+    top: 27%;
     left: 15%;
 }
 
 .essay .second {
     box-sizing: border-box;
-    position: relative;
+    position: absolute;
     color: white;
-    top: 19%;
+    top: 40%;
     left: 8%;
 }
 
 .essay .cena {
     box-sizing: border-box;
-    position: relative;
+    position: absolute;
     color: white;
-    top: 20%;
+    top: 65%;
     left: 13.5%;
     font-size: 22px;
 }
 
 .essay .bread {
     box-sizing: border-box;
-    position: relative;
-    top: 19%;
+    position: absolute;
+    top: 57%;
     left: 15.5%;
 }
 
 .essay .third {
     box-sizing: border-box;
-    position: relative;
+    position: absolute;
     color: white;
-    top: 21%;
+    top: 71%;
     left: 7.5%;
 }
 
 .essay .pray {
     box-sizing: border-box;
-    position: relative;
+    position: absolute;
     color: white;
-    top: -27%;
+    top: 35%;
     left: 75%;
 }
 
 .essay .bible {
     box-sizing: border-box;
-    position: relative;
-    top: -28%;
+    position: absolute;
+    top: 27%;
     left: 80%;
 }
 
 .essay .fourth {
     box-sizing: border-box;
-    position: relative;
+    position: absolute;
     color: white;
-    top: -26%;
+    top: 40%;
     left: 72%;
 }
 
 .essay .moon {
     box-sizing: border-box;
-    position: relative;
-    top: -24%;
+    position: absolute;
+    top: 57%;
     left: 80.5%;
 }
 
 .essay .night {
     box-sizing: border-box;
-    position: relative;
+    position: absolute;
     color: white;
-    top: -23%;
+    top: 65%;
     left: 81%;
 }
 
 .essay .fifth {
     box-sizing: border-box;
-    position: relative;
+    position: absolute;
     color: white;
-    top: -22.5%;
+    top: 71%;
     left: 74%;
 }
 
 .essay .cta {
     position: absolute;
-    left: 43%;
-    top: 291%;
+    left: 42.5%;
+    top: 55%;
     color: white;
     outline: 3px solid white;
     font-size: 20px;
@@ -290,31 +305,31 @@ footer {
     position: relative;
 }
 
-.end img {
+footer .short {
     box-sizing: border-box;
     position: absolute;
     left: 8%;
-    top: 35%;
+    top: 31%;
 }
 
 .end .long {
     box-sizing: border-box;
     position: absolute;
     left: 11.5%;
-    top: 20.5%;
+    top: 16.5%;
 }
 
 address {
     box-sizing: border-box;
     position: absolute;
     left: 11%;
-    top: 60%;
+    top: 55%;
 }
 
 footer .map {
     box-sizing: border-box;
     position: absolute;
-    top: 60%;
+    top: 55%;
     left: 8.3%;
 }
 
@@ -334,3 +349,332 @@ footer .insta {
     top: 35%;
 }
 /* FOOTER END */
+
+/* MEDIA QUERIES START */
+
+@media (1440px > width) {
+    .container {
+        max-width: 1400px;
+    }
+}
+
+@media (1280px > width) {
+    .container {
+        max-width: 1080px;
+    }
+}
+
+@media (942px > width) {
+    .container{
+        max-width: 941px;
+    }
+    .hero-image .cta {
+        left: 44.5%;
+    }
+    .hero-logo {
+        left: 50%;
+    }
+    .hero-image .gram {
+        width: 20px;
+        height: 20px;
+    }
+    nav ul li a {
+        font-size: 22px;
+    }
+    nav img {
+        width: 55px;
+        height: 55px;
+        top: 8%;
+    }
+    .cover .cta {
+        top: 80%;
+        left: 44%;
+    }
+    .essay {
+        height: 100vh;
+        font-size: 50%;
+    }
+    .essay h2 {
+        font-size: 3rem;
+        left: 26%;
+    }
+    .essay h3 {
+        font-size: 1rem;
+    }
+    .essay .first {
+        font-size: 1rem;
+        left: 32.5%;
+    }
+    .essay .service {
+        left: 8%;
+    }
+    .essay .building {
+        left: 13%;
+    }
+    .essay .second {
+        top: 42%
+    }
+    .essay .cena {
+        left: 10%;
+    }
+    .essay .bread {
+        left: 13.5%;
+    }
+    .essay .third {
+        top: 72%;
+    }
+    .essay .bible {
+        left: 81%;
+    }
+    .essay .fourth {
+        left: 75%;
+    }
+    .essay .fifth {
+        left: 76%;
+    }
+    .essay .cta {
+        left: 39.5%;
+    }
+    .essay img {
+        width: 40px;
+        height: 40px;
+    }
+    .end .long {
+        left: 12%;
+    }
+}
+
+@media (768px > width) {
+    .container {
+        max-width: 767px;
+    }
+    .hero-logo {
+        width: 200px;
+        height: 200px;
+        left: 51%;
+    }
+    .hero-image .cta {
+        left: 45%;
+        font-size: 1rem;
+    }
+    .cover .cta {
+        left: 44%;
+        font-size: 1rem;
+    }
+    .essay h2 {
+        left: 22%;
+    }
+    .essay .first {
+        left: 30%;
+        top: 22%;
+    }
+    .essay .service {
+        left: 6%;
+    }
+    .essay .building {
+        left: 12.5%;
+    }
+    .essay .second {
+        left: 6%;
+    }
+    .essay .cena {
+        left: 8.5%;
+    }
+    .essay .bread {
+        left: 13%;
+    }
+    .essay .third {
+        left: 5%;
+    }
+    .essay .bible {
+        left: 82%;
+    }
+    .essay .night {
+        left: 82.5%;
+    }
+    .essay .moon {
+        left: 82%;
+    }
+    .essay .cta {
+        left: 41%;
+        font-size: 1rem;
+    }
+    .end .long {
+        left: 13.5%;
+    }
+    .end .map {
+        width: 22px;
+        height: 22px;
+    }
+    .end address {
+        left: 12%;
+        top: 56%;
+        font-size: .85rem;
+    }
+    .end .insta {
+        width: 22px;
+        height: 22px;
+    }
+    .end p {
+        left: 35%;
+    }
+}
+
+@media (480px > width) {
+    .container {
+        max-width: 479px;
+    }
+    .hero-image .hands {
+        width: 479px;
+        height: 100%;
+    }
+    .hero-image .cta {
+        left: 41%;
+        top: 55%;
+    }
+    nav {
+        display: none;
+    }
+    .cover .cta {
+        display: none;
+    }
+    .cover img {
+        width: 464px;
+        object-position: left 0;
+    }
+    .essay {
+        height: 1200px;
+    }
+    .essay .cta {
+        top: 93%;
+        left: 35%;
+    }
+    .essay h2 {
+        font-size: 2rem;
+        object-position: center;
+        top: 4%;
+    }
+    .essay .first {
+        display: inline-flex;
+        max-width: 350px;
+        line-height: 30px;
+        left: 20%;
+        top: 11%;
+    }
+    .essay .building {
+        top: 25%;
+        left: 48%;
+    }
+    .essay .service {
+        left: 38%;
+        top: 30%;
+    }
+    .essay .second {
+        font-size: .85rem;
+        left: 30%;
+        top: 34%;
+    }
+    .essay .bread {
+        left: 48%;
+        top: 42%;
+    }
+    .essay .cena {
+        left: 42%;
+        top: 47%;
+    }
+    .essay .third {
+        font-size: .85rem;
+        left: 28%;
+        top: 51%;
+    }
+    .essay .bible {
+        top: 60%;
+        left: 48%;
+    }
+    .essay .pray {
+        top: 65%;
+        left: 33%;
+    }
+    .essay .fourth {
+        font-size: .85rem;
+        top: 68%;
+        left: 26%;
+    }
+    .essay .moon {
+        top: 77%;
+        left: 48%;
+    }
+    .essay .night {
+        top: 81%;
+        left: 48.3%;
+    }
+    .essay .fifth {
+        font-size: .85rem;
+        top: 83.5%;
+        left: 30%;
+    }
+    .end .short {
+        left: 48%;
+        top: 15%;
+    }
+    .end .long {
+        display: none;
+        left: 40%;
+    }
+    .end .map {
+        left: 49.5%;
+        top: 40%;
+    }
+    .end address {
+        left: 35.5%;
+        top: 53%;
+    }
+    .end .insta {
+        top: 75%;
+        left: 49.5%;
+    }
+    .end p {
+        left: 28%;
+    }
+}
+
+@media (max-height: 425px) and (min-aspect-ratio: 7/4) {
+    .hero-image .cta {
+        left: 43%;
+    }
+    .cover .cta {
+        display: none;
+    }
+    .essay h2 {
+        font-size: 2rem;
+        left: 28%;
+    }
+    .essay h3 {
+        display: none;
+    }
+    .essay img {
+        display: none;
+    }
+    .essay .cta {
+        top: 65%;
+        left: 39%;
+    }
+    .essay .first {
+        line-height: 1.5rem;
+        left: 27.5%;
+        top: 30%; 
+    }
+    .essay .second {
+        display: none;
+    }
+    .essay .third {
+        display: none;
+    }
+    .essay .fourth {
+        display: none;
+    }
+    .essay .fifth {
+        display: none;
+    }
+}
+/* MEDIA QUERIES END */
