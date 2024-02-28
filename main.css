@@ -678,14 +678,14 @@ footer .insta {
     }
 }
 
-@media (830px > width) and (1792px > height) {
+@media screen and (device-width: 418px) and (device-height: 896px) {
     .hero-image .hands {
         width: 100%;
-        height: 750px;
+        height: 400px;
     }
     .hero-image .cta {
         top: 50%;
-        left: 43%;
+        left: 40%;
     }
     nav {
         display: none;
@@ -694,84 +694,86 @@ footer .insta {
         display: none;
     }
     .essay {
-        height: 900px;
+        height: 1000px;
     }
     .essay .cta {
-        top: 90%;
+        top: 88.5%;
+        left: 33%;
     }
     .essay h2 {
         top: 3%;
-        left: 25%;
+        left: 16%;
     }
     .essay .first {
-        top: 12%;
+        top: 9%;
+        left: 14.5%;
     }
     .essay .building {
-        left: 49%;
+        left: 45%;
         top: 21%;
     }
     .essay .service {
-        left: 43%;
-        top: 27%;
+        left: 33.5%;
+        top: 26%;
     }
     .essay .second {
-        left: 43%;
-        top: 31%;
+        left: 26.5%;
+        top: 29.5%;
     }
     .essay .bread {
-        left: 49%;
+        left: 45.5%;
         top: 36%;
     }
     .essay .cena {
-        left: 45%;
+        left: 39%;
         top: 41%;
     }
     .essay .third {
-        left: 42%;
-        top: 46%;
+        left: 26%;
+        top: 44.5%;
     }
     .essay .bible {
-        left: 49%;
+        left: 45%;
         top: 53%;
     }
     .essay .pray {
-        left: 41%;
+        left: 31%;
         top: 59%;
     }
     .essay .fourth {
-        left: 42%;
-        top: 63%;
+        left: 25%;
+        top: 62%;
     }
     .essay .moon {
-        left: 48%;
+        left: 45%;
         top: 70%;
     }
     .essay .night {
-        left: 49%;
-        top: 76%;
+        left: 45.5%;
+        top: 75%;
     }
     .essay .fifth  {
-        left: 43%;
-        top: 80%;
+        left: 29%;
+        top: 78%;
     }
     .end .short {
-        left: 48%;
+        left: 45.5%;
         top: 15%;
     }
     .end .map {
-        left: 48.5%;
-        top: 40%;
+        left: 47%;
+        top: 38%;
     }
     .end address {
-        left: 39.5%;
+        left: 33%;
         top: 53%;
     }
     .end .insta {
         top: 75%;
-        left: 48.5%;
+        left: 47%;
     }
     .end p {
-        left: 35%;
+        left: 24%;
     }
     .end .long {
         display: none;
