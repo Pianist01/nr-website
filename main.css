@@ -14,6 +14,7 @@ html {
 }
 
 .container {
+    overflow-x: hidden;
     max-width: 1440px;
     margin: 0 auto;
     display: flex;
@@ -793,14 +794,16 @@ footer .insta {
     }
 } */
 @media screen and (max-width: 415px) and (-webkit-device-pixel-ratio: 2) {
+    html {
+        overflow-x: hidden;
+    }
     .container {
         height: 100%;
         max-width: 416px;
-        overflow-x: hidden;
     }
     .hero-image .hands {
         width: 100%;
-        height: 400px;
+        height: 300px;
     }
     .hero-image .cta {
         font-size: 1.25rem;
@@ -856,14 +859,14 @@ footer .insta {
         top: 26%;
     }
     .essay .second {
-        left: 33%;
+        left: 20%;
         top: 29.5%;
     }
     .essay .bread {
         width: 25px;
         height: 25px;
         left: 46%;
-        top: 36%;
+        top: 37%;
     }
     .essay .cena {
         font-size: .85rem;
@@ -871,7 +874,7 @@ footer .insta {
         top: 41%;
     }
     .essay .third {
-        left: 32%;
+        left: 20%;
         top: 44.5%;
     }
     .essay .bible {
@@ -886,7 +889,7 @@ footer .insta {
         top: 59%;
     }
     .essay .fourth {
-        left: 30.5%;
+        left: 20%;
         top: 62%;
     }
     .essay .moon {
@@ -901,7 +904,7 @@ footer .insta {
         top: 75%;
     }
     .essay .fifth  {
-        left: 33%;
+        left: 20%;
         top: 79%;
     }
     .end .short {
