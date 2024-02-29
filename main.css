@@ -833,7 +833,6 @@ footer .insta {
     .cover .water {
     }
     .essay {
-        overflow-x: hidden;
         width: 100%;
         height: 100vh;
     }
