@@ -886,7 +886,7 @@ footer .insta {
         width: 25px;
         height: 25px;
         left: 45%;
-        top: 60%;
+        top: 70%;
     }
     .essay .pray {
         font-size: .85rem;
@@ -898,6 +898,7 @@ footer .insta {
         top: 62%;
     }
     .essay .moon {
+        display: none;
         width: 25px;
         height: 25px;
         left: 45%;
