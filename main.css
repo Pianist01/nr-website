@@ -795,6 +795,7 @@ footer .insta {
 @media screen and (max-width: 415px) and (-webkit-device-pixel-ratio: 2) {
     header {
         overflow-x: hidden;
+        overflow-y: auto;
     }
     .container {
         height: 100%;
