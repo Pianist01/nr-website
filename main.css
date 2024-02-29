@@ -794,7 +794,8 @@ footer .insta {
     }
 } */
 @media screen and (max-width: 415px) and (-webkit-device-pixel-ratio: 2) {
-    html {
+    html body {
+        position: relative;
         overflow-x: hidden;
     }
     .container {
@@ -813,6 +814,7 @@ footer .insta {
     }
     .hero-image .hero-logo {
         left: 50%;
+        top: 15%;
     }
     .hero-image .gram {
         width: 20px;
@@ -828,14 +830,15 @@ footer .insta {
     .cover .water {
     }
     .essay {
+        overflow-x: hidden;
         width: 100%;
         height: 100vh;
     }
     .essay .cta {
-        font-size: .5rem;
+        font-size: 1rem;
         border-radius: 10px;
-        top: 90%;
-        left: 38%;
+        top: 92%;
+        left: 32%;
     }
     .essay h2 {
         font-size: 1.5rem;
