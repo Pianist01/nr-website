@@ -1,0 +1,846 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Oswald;
+    font-weight: 400;
+}
+
+/* UTILITY CLASSES */
+
+html {
+    max-width: 1400px;
+    height: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: grey;
+}
+
+a:active {
+    color: darkgray;
+}
+/* UTILITY CLASSES END */
+/* HEADER START */
+
+.container1 {
+    position: relative;
+    max-width: 100%;
+    height: 790px;
+}
+nav {
+    width: 100%;
+    height: 6rem;
+}
+
+nav .short {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    left: 6%;
+    top: 1.3%;
+}
+
+.line {
+    position: absolute;
+    width: 5%;
+    border: 1.5px solid black;
+    left: 9.5%;
+    top: 6%;
+    transform: rotate(90deg);
+}
+
+nav .full {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 13%;
+    top: -6%;
+}
+
+nav ul {
+    padding: 25px;
+    margin: 0 20px 0 0;
+}
+
+nav ul li {
+    padding: 0;
+    margin: 0;
+    display: block;
+    float: right;
+}
+
+nav ul li a {
+    display: block;
+    box-sizing: border-box;
+    height: 100%;
+    font-size: 24px;
+    padding: 5px 10px 0 10px;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+/* HEADER END */
+/* MAIN START */
+
+.story {
+    display: flex;
+    position: relative;
+    height: 600px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: stretch;
+    background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
+}
+
+.story h2 {
+    align-self: center;
+    color: white;
+}
+
+
+.story img {
+    width: 450px;
+    height: 450px;
+    float: left;
+    margin-right: 2%;
+    margin-left: 10%;
+}
+
+.story p {
+    line-height: 30px;
+    font-size: 1rem;
+    margin-right: 20%;
+    color: white;
+}
+
+.pastor {
+    position: relative;
+    height: 600px;
+    background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
+}
+
+.pastor p {
+    color: white;
+}
+
+.pastor h2 {
+    position: absolute;
+    left: 44.5%;
+    top: 5%;
+    color: white;
+}
+
+.pastor img {
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    left: 2%;
+    top: 15%;
+}
+
+.pastor .leva {
+    position: absolute;
+    line-height: 30px;
+    font-size: 1rem;
+    top: 50%;
+    margin-left: 40%;
+    margin-right: 20%;
+}
+
+.pastor .name {
+    position: absolute;
+    font-size: 2rem;
+    left: 40%;
+    top: 30%;
+}
+
+.pastor .level {
+    position: absolute;
+    left: 40.5%;
+    top: 40%;
+}
+
+.box {
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    background: #D2D4C8;
+    left: 39%;
+    top: 22%;
+    opacity: .7;
+}
+
+.pastor .line {
+    position: absolute;
+    border: 1.5px solid #B8BDB5;
+    left: 35%;
+    top: 26%;
+    transform: rotate(180deg);
+    z-index: 1;
+}
+
+.board {
+    display: none;
+    position: relative;
+    max-width: 1400px;
+    height: 800px;
+    background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
+}
+
+.board h2 {
+    position: absolute;
+    left: 40%;
+    top: 5%;
+    color: white;
+}
+
+.yogi {
+    position: absolute;
+    margin-left: 5%;
+    top: 25%;
+    color: white;
+}
+
+.board img {
+    width: 300px;
+    height: 300px;
+}
+
+.board p {
+    margin-right: 65%;
+}
+
+.band {
+    max-width: 1400px;
+    position: relative;
+    height: 1000px;
+    background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
+}
+
+.band, figcaption, details {
+    color: white;
+}
+
+.band p {
+    margin-right: 60%;
+}
+
+.gady p {
+    margin-right: 20%;
+}
+
+.band h2 {
+    position: absolute;
+    color: white;
+    left: 44%;
+    top: 3%;
+}
+
+.joksi img {
+    width: 300px;
+    height: 300px;
+    border: 3px solid #095256;
+    border-radius: 50%;
+}
+
+.joksi {
+    position: absolute;
+    left: 6%;
+    top: 10%;
+}
+
+.za img {
+    width: 300px;
+    height: 300px;
+    border: 3px solid #095256;
+    border-radius: 50%;
+}
+
+.za {
+    position: absolute;
+    left: 39%;
+    top: 10%;
+}
+
+.gady img {
+    width: 300px;
+    height: 300px;
+    border: 3px solid #095256;
+    border-radius: 50%;
+}
+
+.gady {
+    position: absolute;
+    left: 71%;
+    top: 10%;
+}
+
+.rosa img {
+    width: 300px;
+    height: 300px;
+    border: 3px solid #095256;
+    border-radius: 50%;
+}
+
+.rosa {
+    position: absolute;
+    left: 60%;
+    top: 56%;
+}
+
+.rosa p {
+    margin-right: 23%;
+}
+
+.poopi img {
+    width: 300px;
+    height: 300px;
+    border: 3px solid #095256;
+    border-radius: 50%;
+}
+
+.poopi {
+    position: absolute;
+    top: 56%;
+    left: 18%;
+}
+/* MAIN END */
+/* FOOTER START */
+hr {
+    position: relative;
+    border: 2px solid black;
+    width: 88%;
+    left: 6%;
+    top: 30px;
+}
+
+footer {
+    position: relative;
+    height: 250px;
+}
+
+footer .shorter {
+    box-sizing: border-box;
+    position: absolute;
+    left: 8.5%;
+    top: 31%;
+}
+
+footer .long {
+    box-sizing: border-box;
+    position: absolute;
+    left: 11.5%;
+    top: 17.5%;
+}
+
+address {
+    box-sizing: border-box;
+    position: absolute;
+    left: 11%;
+    top: 55%;
+}
+
+footer .map {
+    box-sizing: border-box;
+    position: absolute;
+    left: 8.8%;
+    top: 55%;
+}
+
+footer p {
+    position: absolute;
+    left: 41%;
+    top: 90%;
+}
+
+footer .insta {
+    box-sizing: border-box;
+    position: absolute;
+    left: 90%;
+    top: 34%;
+}
+/* FOOTER END */
+/* MEDIA QUERIES START */
+
+@media screen and (max-width: 1400px) {
+    html {
+        max-width: 1400px;
+    }
+}
+
+@media screen and (max-width: 1201px) {
+    nav .line {
+        left: 9.7%;
+        width: 6%;
+        top: 6%;
+    }
+    nav .full {
+        left: 14%;
+    }
+    .pastor .leva {
+        left: 4%;
+    }
+    .pastor .level {
+        left: 44%;
+        top: 43%;
+    }
+    .pastor .name {
+        left: 44%;
+    }
+    .pastor .box {
+        left: 42%;
+    }
+    .pastor .line {
+        left: 38%;
+        width: 6%;
+    }
+}
+
+@media screen and (max-width: 901px) {
+    .container1 {
+        max-width: 100%;
+        height: 637px;
+    }
+    nav .short {
+        width: 60px;
+        height: 60px;
+        top: 3%;
+    }
+    nav .line {
+        width: 7%;
+        top: 7.5%;
+    }
+    nav .full {
+        top: -7%;
+    }
+    .story {
+        max-width: 900px;
+        font-size: 1rem;
+        justify-content: space-evenly;
+    }
+    .story p {
+        font-size: 1rem;
+        margin-right: 2%;
+    }
+    .story img {
+        margin-left: 4%;
+    }
+    .pastor h2 {
+        left: 42.5%;
+    }
+    .pastor img {
+        width: 400px;
+        height: 400px;
+    }
+    .pastor .box {
+        width: 400px;
+        height: 400px;
+        left: 50%;
+    }
+    .pastor .leva {
+        left: 30%;
+        margin-right: 5%;
+        margin-left: 22%;
+    }
+    .pastor .name {
+        left: 52%;
+    }
+    .pastor .level {
+        left: 52%;
+    }
+    .pastor .line {
+        left: 46%;
+    }
+    .band h2 {
+        left: 41%;
+    }
+    .band img {
+        width: 250px;
+        height: 250px;
+    }
+    .joksi {
+        left: 3%;
+    }
+    .joksi p {
+        margin-right: 65%;
+    }
+    .za {
+        left: 36%;
+    }
+    .za p {
+        margin-right: 50%;
+    }
+    .gady p {
+        margin-right: 0;
+    }
+    .gady {
+        left: 68%;
+    }
+    .poopi {
+        left: 13%;
+    }
+    footer .long {
+        left: 13%;
+    }
+    footer .map {
+        left: 9%;
+    }
+    address {
+        left: 12%;
+        font-size: .85rem;
+        top: 56%;
+    }
+    footer .insta {
+        width: 22px;
+        height: 22px;
+    }
+    footer p {
+        left: 38%;
+    }
+}
+
+@media screen and (max-width: 601px) {
+    html {
+        max-width: 600px;
+    }
+    nav .short {
+        width: 50px;
+        height: 50px;
+        top: 5%;
+    }
+    nav .line {
+        width: 9%;
+        left: 11%;
+        top: 10%;
+    }
+    nav .full {
+        width: 170px;
+        height: 170px;
+        left: 16%;
+        top: -6.7%;
+    }
+    nav ul li a {
+        font-size: 1.1rem;
+        padding: 10px 1px 0 10px;
+        margin-left: 20px;
+        margin-right: -20px;
+    }
+    .container1 {
+        max-width: 100%;
+        height: 454px;
+    }
+    .story {
+        max-width: 100%;
+        justify-content: space-evenly;
+    }
+    .story h2 {
+        margin-top: -10%;
+    }
+    .story img {
+        width: 270px;
+        height: 270px;
+        margin-top: 5%;
+        margin-left: 1%;
+    }
+    .story p {
+        font-size: 1rem;
+        margin-right: 4%;
+        margin-top: -10%;
+    }
+    .pastor {
+        max-width: 100%;
+    }
+    .pastor h2 {
+        left: 37%;
+    }
+    .pastor img {
+        width: 250px;
+        height: 250px;
+    }
+    .pastor .box {
+        width: 300px;
+        height: 450px;
+        left: 47%;
+    }
+    .pastor .line {
+        left: 43%;
+    }
+    .pastor .name {
+        top: 27%;
+        font-size: 1.8rem;
+        left: 49%;
+    }
+    .pastor .level {
+        left: 50%;
+        top: 38%;
+    }
+    .pastor .leva {
+        font-size: .95rem;
+        top: 44%;
+        left: 28%;
+    }
+    .band {
+        max-width: 100%;
+    }
+    .band h2 {
+        left: 36%;
+    }
+    .band p {
+        font-size: .9rem;
+    }
+    .band img {
+        width: 200px;
+        height: 200px;
+    }
+    .joksi {
+        left: 3%;
+    }
+    .joksi P {
+        margin-right: 70%;
+    }
+    .za {
+        left: 65%;
+    }
+    .za p {
+        margin-right: 0;
+        margin-left: 9%;
+    }
+    .gady {
+        left: 33%;
+        top: 35%;
+    }
+    .gady p {
+        margin-left: -25%;
+        margin-right: 20%;
+    }
+    .poopi {
+        top: 67%;
+        left: 3%;
+    }
+    .rosa {
+        top: 67%;
+        left: 65%;
+    }
+    .poopi p {
+        margin-right: 50%;
+    }
+    .rosa p {
+        margin-right: 0;
+        margin-left: -26%;
+    }
+    footer .long {
+        left: 15%;
+    }
+    footer .map {
+        left: 9.5%;
+    }
+    address {
+        left: 15%;
+    }
+    footer .insta {
+        width: 20px;
+        height: 20px;
+        left: 88%;
+    }
+    footer p {
+        left: 31%;
+    }
+}
+
+@media screen and (max-width: 451px) and (-webkit-device-pixel-ratio: 2) {
+    body {
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+    ul, li, .short {
+        display: none;
+    }
+    nav {
+        height: 4rem;
+    }
+    nav .line {
+        opacity: 0;
+    }
+    nav .full {
+        width: 200px;
+        height: 200px;
+        left: 29%;
+        top: -18%;
+    }
+    .container1 {
+        max-width: 451px;
+        height: 339px;
+    }
+    .story {
+        max-width: 100%;
+        justify-content: space-evenly;
+    }
+    .story h2 {
+        margin-top: -5%;
+    }
+    .story img {
+        width: 230px;
+        height: 230px;
+        margin-top: 9%;
+    }
+    .story p {
+        font-size: .9rem;
+        margin-top: -10%;
+        margin-right: 5%;
+        margin-left: 6%;
+    }
+    .pastor {
+        max-width: 100%;
+    }
+    .pastor h2 {
+        left: 34%;
+        top: 3%;
+    }
+    .pastor img {
+        width: 350px;
+        height: 350px;
+        clip-path: inset(60px 0 40px 0);
+        top: 4%;
+        left: 13%;
+    }
+    .pastor .box {
+        width: 400px;
+        height: 240px;
+        left: 8%;
+        top: 58%;
+    }
+    .pastor .name {
+        top: 58.5%;
+        left: 20%;
+        margin-left: -9%;
+    }
+    .pastor .level {
+        top: 65%;
+        left: 12%;
+    }
+    .pastor .leva {
+        margin-left: -15%;
+        top: 58%;
+        margin-top: 15%;
+        line-height: 24px;
+        left: 25%;
+    }
+    .pastor .line {
+        top: 57%;
+        left: 78%;
+        width: 10%;
+        transform: rotate(90deg);
+    }
+    .band {
+        max-width: 100%;
+    }
+    .band h2 {
+        left: 32.5%;
+    }
+    .band img {
+        width: 155px;
+        height: 155px;
+    }
+    footer .long {
+        left: 17%;
+    }
+    footer p {
+        left: 25%;
+    }
+}  
+
+@media screen and (max-width: 415px) and (-webkit-device-pixel-ratio: 2) {
+    body {
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+    nav .full {
+        top: -20%;
+        left: 27%;
+    }
+    .container1 {
+        max-width: 100%;
+        height: 317px;
+    }
+    .story p {
+        font-size: .85rem;
+        margin-right: 1%;
+    }
+    .pastor h2 {
+        left: 32%;
+    }
+    .pastor img {
+        left: 7%;
+        top: 2%;
+    }
+    .pastor .line {
+        top: 55%;
+    }
+    .pastor .box {
+        width: 390px;
+        height: 250px;
+        left: 3%;
+        top: 56%;
+    }
+    .pastor .leva {
+        margin-left: -20%;
+        top: 56.5%;
+        line-height: 25px;
+    }
+    .pastor .name {
+        top: 56%;
+        left: 15%;
+    }
+    .pastor .level {
+        left: 7%;
+        top: 62.5%;
+    }
+    .band h2 {
+        left: 29.5%;
+    }
+    .joksi p {
+        margin-right: 71%;
+    }
+    .za {
+        left: 60%;
+    }
+    .za p {
+        margin-left: 24.5%;
+    }
+    .gady {
+        left: 31%;
+    }
+    .rosa {
+        left: 60%;
+    }
+    .rosa p {
+        margin-left: -50%;
+    }
+    footer .long {
+        left: 18%;
+    }
+    address {
+        left: 17.5%;
+    }
+    footer .insta {
+        width: 18px;
+        height: 18px;
+    }
+    footer p {
+        left: 23%;
+    }
+}

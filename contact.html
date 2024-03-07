@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Nuevo Remanente">
+    <meta name="description" content="Contact Page">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="icon" type="image/x-icon" href="img/nrfavicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">
+                <img class="short" src="img/nrfaviconlargeborder.png" alt="Nuevo Remanente short logo" width="250" height="250">
+            </a>
+            <div class="line"></div>
+            <a href="index.html">
+                <img class="full" src="img/LongLogo.png" alt="Logo Full Name" width="250" height="250">
+            </a>
+            <ul>
+                <li>
+                    <a href="about.html">Nuestra Historia</a>
+                </li>
+                <li>
+                    <a href="schedule.html">Servicios</a>
+                </li>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+            </ul>
+        </nav>
+    <div class="hero">
+        <img class="mail" src="img/contact.png" alt="mail" width="3884" height="768" lazy>
+    </div> 
+    </header>
+<main>
+    <h1>Forma De Contacto</h1>
+    <p>Si tiene pregunta de la iglesia, los servicios, etc. Dejanos saber aqui.</p>
+    <form method="post" action="#">
+        <fieldset>
+            <label for="first-name">Nombre: <input id="first-name" name="first-name" type="text" required></label>
+            <label for="last-name">Apellido: <input id="last-name" name="last-name" type="text" required></label>
+            <label for="email">Email: <input id="email" name="email" type="email" required></label>
+        </fieldset>
+            <label for="message">Su mensaje: <textarea id="message" name="message" rows="3" cols="30" placeholder="Su mensaje..."></textarea></label>
+            <input type="submit" value="Submitir"/>      
+    </form>
+</main>   
+</body>
+</html>

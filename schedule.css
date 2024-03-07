@@ -125,7 +125,7 @@ main .container2 {
     color: white;
 }
 
-.start figcaption {
+.start p {
     position: absolute;
     left: 39.5%;
     top: 120px;
@@ -359,7 +359,7 @@ footer .insta {
     .start h2 {
         left: 35%;
     }
-    .start figcaption {
+    .start p {
         left: 38.5%;
     }
 }
@@ -401,7 +401,7 @@ footer .insta {
         left: 37%;
         font-size: 2.5rem;
     }
-    .start figcaption {
+    .start p {
         left: 38%;
     }
     .dropdown-content2 {
@@ -493,7 +493,7 @@ footer .insta {
         left: 29%;
         top: 20px;
     }
-    .start figcaption {
+    .start p {
         left: 33%;
         font-size: .9rem;
         top: 100px;
@@ -568,7 +568,7 @@ footer .insta {
     .start h2 {
         left: 23%;
     }
-    .start figcaption {
+    .start p {
         left: 28%;
     }
     .container2 {
@@ -620,16 +620,25 @@ footer .insta {
         overflow-y: auto;
     }
     nav .full {
-        left: 27.5%;
+        left: 25.5%;
         top: -19%;
     }
     .start h2 {
         left: 26%;
         font-size: 2rem;
     }
-    .start figcaption {
+    .start p {
         font-size: .8rem;
         top: 80px;
+    }
+    .dropdown1, .dropdown2, .dropdown3, .dropdown4 {
+        display: none;
+    }
+    .dropdown-content1 p, .dropdown-content2 p, .dropdown-content3 p, .dropdown-content4 p {
+        display: none;
+    }
+    .dropdown-content1, .dropdown-content2, .dropdown-content3, .dropdown-content4 {
+        background-color: transparent;
     }
     .one, .three {
         left: 8%;
@@ -641,3 +650,4 @@ footer .insta {
         left: 23%;
     }
 }
+/* MEDIA QUERIES END */
