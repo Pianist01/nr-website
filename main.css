@@ -353,331 +353,210 @@ footer .insta {
 
 /* MEDIA QUERIES START */
 
-@media (1440px > width) {
-    .container {
+@media screen and (max-width: 1400px) {
+    html {
         max-width: 1400px;
     }
 }
 
-@media (1280px > width) {
-    .container {
-        max-width: 1080px;
+@media screen and (max-width: 1201px) {
+    html {
+        max-width: 1200px;
     }
-}
-
-@media (942px > width) {
-    .container{
-        max-width: 941px;
+    .container {
+        max-width: 1200px;
+    }
+    header {
+        width: 1200px;
+    }
+    .hero-image {
+        margin-left: -4.5%;
     }
     .hero-image .cta {
-        left: 44.5%;
+        left: 45.5%;
     }
-    .hero-logo {
-        left: 50%;
-    }
-    .hero-image .gram {
-        width: 20px;
-        height: 20px;
-    }
-    nav ul li a {
-        font-size: 22px;
-    }
-    nav img {
-        width: 55px;
-        height: 55px;
-        top: 8%;
-    }
-    .cover .cta {
-        top: 80%;
-        left: 44%;
-    }
-    .essay {
-        height: 100vh;
-        font-size: 50%;
-    }
-    .essay h2 {
-        font-size: 3rem;
-        left: 26%;
-    }
-    .essay h3 {
-        font-size: 1rem;
-    }
-    .essay .first {
-        font-size: 1rem;
-        left: 32.5%;
-    }
-    .essay .service {
-        left: 8%;
-    }
-    .essay .building {
-        left: 13%;
-    }
-    .essay .second {
-        top: 42%
-    }
-    .essay .cena {
-        left: 10%;
-    }
-    .essay .bread {
-        left: 13.5%;
-    }
-    .essay .third {
-        top: 72%;
-    }
-    .essay .bible {
-        left: 81%;
-    }
-    .essay .fourth {
-        left: 75%;
-    }
-    .essay .fifth {
-        left: 76%;
-    }
-    .essay .cta {
-        left: 39.5%;
-    }
-    .essay img {
-        width: 40px;
-        height: 40px;
-    }
-    .end .long {
-        left: 12%;
-    }
-}
-
-/* @media (768px > width) {
-    .container {
-        max-width: 767px;
-    }
-    .hero-logo {
-        width: 200px;
-        height: 200px;
-        left: 51%;
-    }
-    .hero-image .cta {
-        left: 45%;
-        font-size: 1rem;
-    }
-    .cover .cta {
-        left: 44%;
-        font-size: 1rem;
-    }
-    .essay h2 {
-        left: 22%;
-    }
-    .essay .first {
-        left: 30%;
-        top: 22%;
-    }
-    .essay .service {
-        left: 6%;
-    }
-    .essay .building {
-        left: 12.5%;
-    }
-    .essay .second {
-        left: 6%;
-    }
-    .essay .cena {
-        left: 8.5%;
-    }
-    .essay .bread {
-        left: 13%;
-    }
-    .essay .third {
-        left: 5%;
-    }
-    .essay .bible {
-        left: 82%;
-    }
-    .essay .night {
-        left: 82.5%;
-    }
-    .essay .moon {
-        left: 82%;
-    }
-    .essay .cta {
-        left: 41%;
-        font-size: 1rem;
-    }
-    .end .long {
-        left: 13.5%;
-    }
-    .end .map {
-        width: 22px;
-        height: 22px;
-    }
-    .end address {
-        left: 12%;
-        top: 56%;
-        font-size: .85rem;
-    }
-    .end .insta {
-        width: 22px;
-        height: 22px;
-    }
-    .end p {
-        left: 35%;
-    }
-} */
-
-/* @media (480px > width) {
-    .container {
-        max-width: 479px;
-    }
-    .hero-image .hands {
-        width: 479px;
-        height: 100%;
-    }
-    .hero-image .cta {
-        left: 41%;
-        top: 55%;
+    main {
+        width: 1200px;
     }
     nav {
-        display: none;
+        margin-left: -4.5%;
     }
-    .cover .cta {
-        display: none;
+    nav ul {
+        margin: 0 60px 0 0;
+    }
+    .cover {
+        width: 1200px;
     }
     .cover img {
-        width: 464px;
-        object-position: left 0;
+        margin-left: -4.5%;
+    }
+    .cover .cta {
+        left: 41%;
     }
     .essay {
-        height: 1200px;
+        width: 1200px;
+        margin-left: -4.4%;
     }
-    .essay .cta {
-        top: 93%;
-        left: 35%;
+}
+
+@media screen and (max-width: 901px) {
+    html {
+        max-width: 900px;
+    }
+    .container {
+        max-width: 900px;
+    }
+    header {
+        width: 900px;
+    }
+     .hero-logo {
+        left: 52.5%;
+    }
+    .hero-image .cta {
+        left: 47%;
+    }
+    nav img {
+        left: 3%;
+    }
+    nav ul {
+        margin-right: 25%;
+    }
+    nav ul li a {
+        font-size: 1.3rem;
+    }
+    .cover {
+        width: 900px;
+    }
+    .cover img {
+        margin-left: -1%;
+    }
+    .cover .cta {
+        left: 43%;
+    }
+    .essay {
+        width: 900px;
+        margin-left: 0;
+    }
+    .essay h2, h3, p {
+        transform: scale(.6);
+        margin-left: -5%;
     }
     .essay h2 {
-        font-size: 2rem;
-        object-position: center;
-        top: 4%;
+        margin-left: -7%;
     }
     .essay .first {
-        display: inline-flex;
-        max-width: 350px;
-        line-height: 30px;
-        left: 20%;
-        top: 11%;
+        margin-left: -6.5%;
     }
-    .essay .building {
-        top: 25%;
-        left: 48%;
+    .essay img {
+        transform: scale(.6);
+        margin-left: -3.5%;
     }
-    .essay .service {
-        left: 38%;
-        top: 30%;
+    .night {
+        margin-left: -3%;
     }
-    .essay .second {
-        font-size: .85rem;
-        left: 30%;
-        top: 34%;
+    .service {
+        margin-left: -4.5%;
     }
-    .essay .bread {
-        left: 48%;
-        top: 42%;
+    .cena {
+        margin-left: -4%;
     }
-    .essay .cena {
-        left: 42%;
-        top: 47%;
-    }
-    .essay .third {
-        font-size: .85rem;
-        left: 28%;
-        top: 51%;
-    }
-    .essay .bible {
-        top: 60%;
-        left: 48%;
-    }
-    .essay .pray {
-        top: 65%;
-        left: 33%;
-    }
-    .essay .fourth {
-        font-size: .85rem;
-        top: 68%;
-        left: 26%;
-    }
-    .essay .moon {
-        top: 77%;
-        left: 48%;
-    }
-    .essay .night {
-        top: 81%;
-        left: 48.3%;
-    }
-    .essay .fifth {
-        font-size: .85rem;
-        top: 83.5%;
-        left: 30%;
-    }
-    .end .short {
-        left: 48%;
-        top: 15%;
-    }
-    .end .long {
-        display: none;
+    .essay .cta {
+        transform: scale(.7);
         left: 40%;
     }
-    .end .map {
-        left: 49.5%;
-        top: 40%;
-    }
-    .end address {
-        left: 35.5%;
-        top: 53%;
-    }
-    .end .insta {
-        top: 75%;
-        left: 49.5%;
+    .end .long {
+        left: 13%;
     }
     .end p {
-        left: 28%;
+        font-size: 1.5rem;
+        left: 37%;
     }
-} */
+}
 
-/* @media (max-height: 425px) and (min-aspect-ratio: 7/4) {
+@media screen and (max-width: 601px) {
+    html {
+        max-width: 600px;
+    }
+    .container {
+        max-width: 600px;
+    }
+    header {
+        width: 600px;
+        height: 500px;
+    }
     .hero-image .cta {
         left: 43%;
     }
+    nav {
+        height: 80px;
+    }
+    nav img {
+        top: -5%;
+    }
+    nav ul {
+        margin-right: 50%;
+    }
+    nav ul, li, a {
+        padding-top: 20px;
+    }
+    .cover {
+        width: 600px;
+    }
     .cover .cta {
-        display: none;
+        transform: scale(.8);
+        left: 41%;
+    }
+    .essay {
+        width: 600px;
     }
     .essay h2 {
-        font-size: 2rem;
-        left: 28%;
-    }
-    .essay h3 {
-        display: none;
-    }
-    .essay img {
-        display: none;
-    }
-    .essay .cta {
-        top: 65%;
-        left: 39%;
+        margin-left: -20%;
     }
     .essay .first {
-        line-height: 1.5rem;
-        left: 27.5%;
-        top: 30%; 
+        display: none;
+    }
+    .essay .service {
+        margin-left: -7%;
     }
     .essay .second {
-        display: none;
+        margin-left: -10%;
+    }
+    .essay .cena {
+        margin-left: -5.5%;
+    }
+    .essay .bread {
+        margin-left: -4%;
     }
     .essay .third {
-        display: none;
+        margin-left: -12%;
+    }
+    .essay .pray {
+        margin-left: -10%;
     }
     .essay .fourth {
-        display: none;
+        margin-left: -7%;
     }
     .essay .fifth {
-        display: none;
+        margin-left: -8%;
     }
-} */
+    .essay .cta {
+        left: 35%;
+    }
+    .end .long {
+        left: 15%;
+    }
+    address {
+        font-size: .8rem;
+        left: 15%;
+    }
+    .end .insta {
+        width: 22px;
+        height: 22px;
+    }
+    .end p {
+        left: 25%;
+    }
+}
 
 @media screen and (max-width: 450px) and (-webkit-device-pixel-ratio: 2) {
     header {
