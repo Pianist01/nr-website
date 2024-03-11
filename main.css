@@ -560,14 +560,14 @@ footer .insta {
 
 @media screen and (max-width: 450px) and (-webkit-device-pixel-ratio: 2) {
     html {
+        overflow-x: hidden;
+        overflow-y: auto;
         max-width: 449px;
     }
     .container {
         max-width: 449px;
     }
     header {
-        overflow-x: hidden;
-        overflow-y: auto;
         width: 449px;
         height: 400px;
     }
@@ -613,6 +613,10 @@ footer .insta {
         font-size: 2rem;
         top: 3%;
         left: 37%;
+    }
+    .essay .first {
+        display: none;
+        left: 1%;
     }
     .essay .building {
         left: 46%;
@@ -690,7 +694,7 @@ footer .insta {
 @media screen and (max-width: 415px) and (-webkit-device-pixel-ratio: 2) {
     html {
         overflow-x: hidden;
-        max-width: 414px;
+        width: 414px;
     }
     .container {
         max-width: 414px;
@@ -741,6 +745,10 @@ footer .insta {
         font-size: 1.5rem;
         top: 3%;
         left: 44%;
+    }
+    .essay .first {
+        display: none;
+        left: 1%;
     }
     .essay .building {
         width: 40px;
