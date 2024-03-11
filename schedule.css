@@ -32,6 +32,18 @@ a:hover {
 a:active {
     color: darkgray;
 }
+.one .mobile {
+    pointer-events: none;
+}
+.two .mobile {
+    pointer-events: none;
+}
+.three .mobile {
+    pointer-events: none;
+}
+.four .mobile {
+    pointer-events: none;
+}
 /* UTILITY CLASSES END */
 /* HEADER START */
 header {
@@ -583,6 +595,9 @@ footer .insta {
         width: 150px;
         height: 150px;
         top: 15%;
+    }
+    .one .mobile {
+        pointer-events: visible;
     }
     .two {
         width: 150px;

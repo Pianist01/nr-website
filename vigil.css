@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Oswald;
+    font-weight: 400;
+}
+
+/* UTILITY CLASSES */
+
+html {
+    max-width: 450px;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto; 
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: grey;
+}
+
+a:active {
+    color: darkgray;
+}
+/* UTILITY CLASSES END */
+/* HEADER START */
+
+nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 4rem;
+}
+
+nav img {
+    width: 200px;
+    height: 200px;
+    margin-top: -30%;
+    flex-shrink: 1;
+}
+
+.hero {
+    display: flex;
+    flex-shrink: 1;
+}
+/* HEADER END */
+/* MAIN START */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    flex-shrink: 1;
+    background: linear-gradient(178.6deg, rgb(20, 36, 50) 11.8%, rgb(124, 143, 161) 83.8%);
+}
+
+.container h2 {
+    align-self: center;
+    flex-shrink: inherit;
+    color: white;
+}
+
+.container .first {
+    align-self: center;
+    flex-shrink: inherit;
+    color: white;
+}
+
+.container .third {
+    align-self: center;
+    color: white;
+}
+
+.container .second {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    line-height: 35px;
+    flex-shrink: inherit;
+    color: white;
+}
+
+.container a {
+    align-self: center;
+    font-size: 1.2rem;
+    border: 2px solid white;
+    color: white;
+    border-radius: 10px;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+/* MAIN END */
+/* FOOTER START */
+
+hr {
+    width: 88%;
+    margin-left: 6%;
+    margin-top: 10%;
+    border: 1.5px solid black;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    height: 150px;
+}
+
+footer .shorter {
+    position: absolute;
+    left: 10%;
+    top: 40%;
+}
+
+footer .long {
+    position: absolute;
+    left: 20%;
+    top: 18%;
+}
+
+footer .map {
+    position: absolute;
+    left: 11%;
+    top: 75%;
+}
+
+footer address {
+    position: absolute;
+    font-size: .85rem;
+    left: 18%;
+    top: 78%;
+}
+
+footer .insta {
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    left: 85%;
+    top: 45%;
+}
+
+footer p {
+    position: absolute;
+    left: 23%;
+    top: 150%;
+}
+/* FOOTER END */
+/* MEDIA QUERIES START */
+
+@media screen and (max-width: 415px) and (-webkit-device-pixel-ratio: 2) {
+    html {
+        max-width: 414px;
+    }
+    .container a {
+        margin-top: -5%;
+    }
+}
+/* MEDIA QUERIES END */
